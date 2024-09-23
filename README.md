@@ -27,6 +27,6 @@ use this command in your terminal emulator: su -c "cat /sys/block/zram0/comp_alg
 
 if the compression algorithm is changed by the module it should look like this: [lz4]
 
-#fork 
+# Fork
 
 add detection to see if your device is compatible with this compression algorithm
