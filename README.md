@@ -21,8 +21,12 @@ Compatibility: Not all ROMs or kernels easily support changing the compression a
 
 Variable Impact: Positive impact may vary depending on the specific use of the device. In some cases, the benefits may be less noticeable.
 
-# How will I know if the module is working? 
+# How will I know if the module is working?
 
 use this command in your terminal emulator: su -c "cat /sys/block/zram0/comp_algorithm"
 
 if the compression algorithm is changed by the module it should look like this: [lz4]
+
+#fork 
+
+add detection to see if your device is compatible with this compression algorithm
